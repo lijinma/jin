@@ -16,4 +16,4 @@ $ rake generate
 
 []( http://www.lijinma.com)
 
-![Jin preview]https://raw.githubusercontent.com/lijinma/MyBox/master/jin.png
+![Jin preview](https://raw.githubusercontent.com/lijinma/MyBox/master/jin.png)
