@@ -34,6 +34,9 @@ body {
 h1 {
   font-size: 2.2em;
   line-height: 1.2em;
+  //Added by lijinma
+  color: #329628;
+  //end
 }
 
 @media only screen and (min-width: 992px) {
@@ -63,7 +66,10 @@ h6, section h5, section section h4, section section section h3 {
   font-size: .8em;
 }
 
-p, article blockquote, ul, ol { margin-bottom: 1.5em; }
+//p, article blockquote, ul, ol { margin-bottom: 1.5em; }
+//Added by lijinma
+p, article blockquote, ul, ol { margin-bottom: .8em; }
+//end
 
 ul { list-style-type: disc;
   ul { list-style-type: circle; margin-bottom: 0px;
@@ -108,13 +114,20 @@ small { font-size: .8em; }
 big { font-size: 1.2em; }
 
 article blockquote {
-  $bq-margin: 1.2em;
-  font-style: italic;
-  position: relative;
-  font-size: 1.2em;
-  line-height: 1.5em;
-  padding-left: 1em;
-  border-left: 4px solid rgba($text-color-light, .5);
+  // $bq-margin: 1.2em;
+  // font-style: italic;
+  // position: relative;
+  // font-size: 1.2em;
+  // line-height: 1.5em;
+  // padding-left: 1em;
+  // border-left: 4px solid rgba($text-color-light, .5);
+  // Added by lijinma
+  padding: 15px 20px;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  border-left: 5px solid #ddd;
+  background-color: rgba(102, 128, 153, 0.05);
+  // end
   cite {
     font-style: italic;
     a { color: $text-color-light !important; word-wrap: break-word; }
@@ -125,6 +138,7 @@ article blockquote {
     border-left-width: 4px;
   }
 }
+
 
 .pullquote-right:before,
 .pullquote-left:before {

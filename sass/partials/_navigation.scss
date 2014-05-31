@@ -1,12 +1,23 @@
 body > nav {
   position: relative;
-  background-color: $nav-bg;
-  @include background($nav-bg-front, $nav-bg-back);
-  border: {
-    top: 1px solid $nav-border-top;
-    bottom: 1px solid $nav-border-bottom; }
-  padding-top: .35em;
-  padding-bottom: .35em;
+  // background-color: $nav-bg;
+  // @include background($nav-bg-front, $nav-bg-back);
+  // border: {
+  //   top: 1px solid $nav-border-top;
+  //   bottom: 1px solid $nav-border-bottom; }
+  // padding-top: .35em;
+  // padding-bottom: .35em;
+
+  // Added by lijinma
+  height: 47px;
+  @include background($nav-bg-front);
+  -webkit-background-size: 60px 58px;
+  -moz-background-size: 60px 58px;
+  -o-background-size: 60px 58px;
+  background-size: 60px 58px;
+  padding-top: 10px;
+  // end
+
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
@@ -55,7 +66,7 @@ body > nav {
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       font-family: $sans;
-      text-shadow: lighten($nav-bg, 12) 0 1px;
+      // text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
       font-size: 1.1em;
@@ -63,11 +74,11 @@ body > nav {
       line-height: 1.5em;
     }
     li + li {
-      border-left: 1px solid $nav-border-left;
+      //border-left: 1px solid $nav-border-left;
       margin-left: .8em;
       a {
         padding-left: .8em;
-        border-left: 1px solid $nav-border-right;
+        //border-left: 1px solid $nav-border-right;
       }
     }
     form {

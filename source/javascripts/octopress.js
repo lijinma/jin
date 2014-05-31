@@ -14,7 +14,7 @@ function getNav() {
 
 function addSidebarToggler() {
   if(!$('body').hasClass('sidebar-footer')) {
-    $('#content').append('<span class="toggle-sidebar"></span>');
+    //$('#content').append('<span class="toggle-sidebar"></span>');
     $('.toggle-sidebar').bind('click', function(e) {
       e.preventDefault();
       if ($('body').hasClass('collapse-sidebar')) {

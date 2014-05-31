@@ -45,7 +45,7 @@ $header-padding-bottom: 1.5em !default;
 
 body {
   -webkit-text-size-adjust: none;
-  max-width: $max-width;
+  //max-width: $max-width;
   position: relative;
   margin: 0 auto;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
@@ -135,7 +135,10 @@ body.sidebar-footer {
   body > header { font-size: $header-font-size * 1.2; }
   #main {
     padding: 0;
-    margin: 0 auto;
+    //margin: 0 auto;
+    //Added by lijinma
+    margin: 50px auto 50px;
+    //end
   }
   #content {
     overflow: visible;
@@ -186,7 +189,7 @@ body.sidebar-footer {
 
 @if $indented-lists == false {
   @media only screen and (min-width: 768px) {
-    ul, ol { margin-left: 0; }
+    //ul, ol { margin-left: 0; }
   }
 }
 

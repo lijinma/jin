@@ -33,6 +33,13 @@ article {
     background: $img-border top left repeat-x;
   }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
+  //Added by lijinma
+   .entry-content {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Helvetica Neue, Arial, Hiragino Sans GB, STHeiti, SimSun, WenQuanYi Micro Hei, Microsoft YaHei, sans-serif;
+  }
+  //end
   h2:first-child, header + h2 { background: none; }
   .feature {
     padding-top: .5em;
