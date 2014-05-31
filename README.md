@@ -14,6 +14,6 @@ $ rake generate
 
 ##Preview
 
-[]( http://www.lijinma.com)
+[http://www.lijinma.com](http://www.lijinma.com)
 
 ![Jin preview](https://raw.githubusercontent.com/lijinma/MyBox/master/jin.png)
