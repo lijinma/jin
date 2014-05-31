@@ -1,7 +1,7 @@
-jin
+Jin
 ===
 
-A responsive Octopress theme, inspired by Evernote and Octopress classic theme.
+A responsive and clean Octopress theme, inspired by Evernote and customized from Octopress classic theme.
 
 ##How to install
 
